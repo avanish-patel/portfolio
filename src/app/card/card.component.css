@@ -1,0 +1,15 @@
+.card {
+    width: 300px;
+    margin: 15px;
+    border: 10px solid white;
+}
+
+.cards {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-flow: wrap;
+    background-color: #282e34;
+    justify-content: space-evenly;
+}
+
