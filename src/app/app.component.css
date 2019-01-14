@@ -133,7 +133,7 @@
   }
 
   .submit {
-      width: 150px;
+      width: 220px;
       height: 40px;
       letter-spacing: 8px;
   }
@@ -147,6 +147,11 @@
 
     .contact {
         letter-spacing: 2px;
+    }
+
+    .contact-form {
+        padding-right: 50px;
+        padding-right: 50px;
     }
     
   }
