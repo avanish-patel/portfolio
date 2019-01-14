@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
+  <title>Avanish's Portfolio</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,14 @@
 </head>
 
 <body>
+  <app-root></app-root>
+  <script>
+    (function($){
+  $(document).on('contextmenu', 'img', function() {
+      return false;
+  })
+})(jQuery);
 
-    <app-root></app-root>
-
-
+  </script>
 </body>
-
 </html>

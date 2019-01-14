@@ -11,5 +11,6 @@
     flex-flow: wrap;
     background-color: #282e34;
     justify-content: space-evenly;
+    align-items: center;
 }
 
